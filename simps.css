@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	background-color: pink;
+}
+
+.family {
+	margin: 0 auto;
+}
+
+.momy {
+	margin-left: 50px;
+	width: 30px;
+	display: inline-block;
+	box-shadow: 
+	-10px 5px 0px -5px grey/* , -15px 7px 0px -7px grey, -20px 10px 0px -10px grey,
+	-20px 7px 0px -7px grey*/;
+}
+
+.momy > .heir {
+	background-color: blue;
+	height: 100px;
+}
+
+.momy > .head {
+	background-color: #FFDE37;
+	height: 30px;
+}
+
+.momy > .body {
+	background-color: #7CD82B;
+	height: 70px;
+}
+
+.momy > .arms {
+	background-color: #FFDE37;
+	height: 20px;
+}
+
+.momy > .leg {
+	background-color: red;
+	height: 20px;
+}
+
+.father {
+	margin-left: 50px;
+	width: 50px;
+	display: inline-block;
+}
+.father > .head {
+	background-color: #FFDE37;
+	height: 50px;
+}
+
+.father > .neck {
+	background-color: grey;
+	height: 10px;
+}
+.father > .body {
+	background-color: white;
+	height: 70px;
+}
+
+.father > .leg {
+	background-color: blue;
+	height: 70px;
+}
+
+.father > .shoose {
+	background-color: grey;
+	height: 20px;
+}
+
+.son {
+	margin-left: 50px;
+	width: 40px;
+	display: inline-block;
+}
+
+.son > .head {
+	background-color: #FFDE37;
+	height: 40px;
+}
+
+.son > .neck {
+	background-color: #FCA638;
+	height: 15px;
+}
+.son > .body {
+	background-color: blue;
+	height: 30px;
+}
+
+.son > .leg {
+	background-color: #FFDE37;
+	height: 20px;
+}
+
+.son > .shoose {
+	background-color: blue;
+	height: 15px;
+}
+
+.daughter {
+	margin-left: 50px;
+	width: 40px;
+	display: inline-block;
+}
+
+.daughter > .head {
+	background-color: #FFDE37;
+	height: 40px;
+}
+
+.daughter > .body {
+	background-color: red;
+	height: 45px;
+}
+
+.daughter > .leg {
+	background-color: #FFDE37;
+	height: 20px;
+}
+
+.daughter > .shoose {
+	background-color: red;
+	height: 15px;
+}
+.baby {
+	margin-left: 50px;
+	width: 35px;
+	display:inline-block;
+}
+
+.baby > .head {
+	background-color: #FFDE37;
+	height: 35px;
+}
+.baby > .body {
+	background-color: #9DD8E6;
+	height: 37px; 
+}
